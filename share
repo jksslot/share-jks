@@ -1,0 +1,69 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xxl",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/N9mF5Ze6pkWlV3BUpOqZ/pub/j7hvkQPvPxLNJO6B9zno.png",
+            "aspectRatio": "1:1",
+            "size": "full"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xxl",
+        "color": "#ad7f38"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "สมัครสมาชิก",
+              "uri": "https://liff.line.me/1656675915-j56kA3B9"
+            },
+            "color": "#1D1D1D",
+            "style": "primary",
+            "margin": "xs"
+          },
+          {
+            "type": "separator",
+            "margin": "md",
+            "color": "#ad7f38"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "แชร์ให้เพื่อน",
+              "text": "แชร์ให้เพื่อน"
+            },
+            "color": "#ffffff",
+            "style": "secondary"
+          }
+        ],
+        "backgroundColor": "#ad7f38"
+      }
+    ],
+    "backgroundColor": "#ad7f38"
+  },
+  "styles": {
+    "footer": {
+      "separator": true
+    }
+  }
+}
